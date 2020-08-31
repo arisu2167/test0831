@@ -9,7 +9,7 @@ namespace _0831dbtest
             var db = new mylessondbContext();
             var ret = from c in db.ManagerTable
                       select c;
-
+//test
             foreach (var item in ret)
             {
                 Console.WriteLine($"{item.Mid} - {item.Mname} - {item.Mphone}- {item.Mcountry} ");
